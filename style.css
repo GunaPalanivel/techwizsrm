@@ -76,13 +76,10 @@ ul {
   padding-right: 20px;
 }
 
-.hero-content h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
 .hero-image {
   flex: 1 1 50%;
+  position: relative;
+  left: 20px; /* Adjust this value to move the image to the right */
 }
 
 .hero-image img {
